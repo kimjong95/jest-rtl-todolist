@@ -10,5 +10,5 @@ export function findTodoList(): Promise<Todo[]> {
 }
 
 export function registerTodo(todo: Todo): Promise<void> {
-  return axios.post(BASE_URL);
+  return axios.post(BASE_URL, todo);
 }
