@@ -1,3 +1,3 @@
-export function renderTodoList() {
+export function TodoListRender() {
   return null;
 }

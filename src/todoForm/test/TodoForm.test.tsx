@@ -51,7 +51,7 @@ function renderTodoForm() {
 }
 
 describe('<TodoForm />', () => {
-  it('has Form element in page', async () => {
+  it('has Form element in component', async () => {
     render(<TodoForm />);
     const {
       todoText,
